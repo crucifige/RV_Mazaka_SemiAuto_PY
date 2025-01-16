@@ -1,0 +1,37 @@
+{
+	"version": 1,
+	"name": "Picon",
+	"settings": {
+		"version": 1,
+		"refsys": {
+			"name": "Earth, WGS 84, UTM",
+			"shift": "Earth",
+			"parameter": "Zone N30"
+		}
+	},
+	"columns": [
+		"id",
+		"northing",
+		"easting",
+		"altitude",
+		"ground_altitude",
+		"yaw",
+		"object_type"
+	],
+	"point_color": {
+		"object_type": {
+			"HEA160-3.3": "#f5a029",
+			"HEA160-3.6": "#6cf16a",
+			"HEA160-3.8": "#15e5e1",
+			"Sigma65-2.8": "#26ba29",
+			"Sigma65-3": "#84700b",
+			"Sigma65-3.2": "#15adc1",
+			"Sigma65-3.5": "#e2bf8d"
+		}
+	},
+	"units": {
+		"length": "meter",
+		"plane_angle": "degree"
+	}
+}01.03	38.69935827	35.38464135	1101.32	1	2
+01.04	38.69933932	35.38461678	1101.32	1	2
