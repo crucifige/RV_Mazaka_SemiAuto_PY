@@ -272,43 +272,13 @@ QPushButton:disabled {
           </rect>
          </property>
         </widget>
-        <widget class="QWidget" name="widget_7" native="true">
-         <property name="geometry">
-          <rect>
-           <x>10</x>
-           <y>90</y>
-           <width>401</width>
-           <height>21</height>
-          </rect>
-         </property>
-        </widget>
-        <widget class="QWidget" name="widget_8" native="true">
-         <property name="geometry">
-          <rect>
-           <x>10</x>
-           <y>110</y>
-           <width>291</width>
-           <height>21</height>
-          </rect>
-         </property>
-        </widget>
-        <widget class="QWidget" name="widget_9" native="true">
-         <property name="geometry">
-          <rect>
-           <x>10</x>
-           <y>130</y>
-           <width>291</width>
-           <height>21</height>
-          </rect>
-         </property>
-        </widget>
         <widget class="QScrollArea" name="scrollArea">
          <property name="geometry">
           <rect>
            <x>10</x>
-           <y>10</y>
+           <y>90</y>
            <width>411</width>
-           <height>431</height>
+           <height>351</height>
           </rect>
          </property>
          <property name="widgetResizable">
@@ -320,7 +290,7 @@ QPushButton:disabled {
             <x>0</x>
             <y>0</y>
             <width>409</width>
-            <height>429</height>
+            <height>349</height>
            </rect>
           </property>
           <widget class="QLabel" name="label_35">
@@ -341,43 +311,6 @@ QPushButton:disabled {
            </property>
            <property name="text">
             <string>38.69935828</string>
-           </property>
-          </widget>
-          <widget class="Line" name="line_8">
-           <property name="geometry">
-            <rect>
-             <x>40</x>
-             <y>50</y>
-             <width>16</width>
-             <height>31</height>
-            </rect>
-           </property>
-           <property name="orientation">
-            <enum>Qt::Vertical</enum>
-           </property>
-          </widget>
-          <widget class="QLabel" name="label_18">
-           <property name="geometry">
-            <rect>
-             <x>65</x>
-             <y>50</y>
-             <width>101</width>
-             <height>30</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <pointsize>16</pointsize>
-            </font>
-           </property>
-           <property name="frameShape">
-            <enum>QFrame::NoFrame</enum>
-           </property>
-           <property name="text">
-            <string>X</string>
-           </property>
-           <property name="alignment">
-            <set>Qt::AlignCenter</set>
            </property>
           </widget>
           <widget class="QLabel" name="label_27">
@@ -429,29 +362,6 @@ QPushButton:disabled {
             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
            </property>
           </widget>
-          <widget class="QLabel" name="lbTitle_1">
-           <property name="geometry">
-            <rect>
-             <x>58</x>
-             <y>8</y>
-             <width>281</width>
-             <height>20</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <pointsize>12</pointsize>
-             <weight>75</weight>
-             <bold>true</bold>
-            </font>
-           </property>
-           <property name="text">
-            <string>Target Coordinates</string>
-           </property>
-           <property name="alignment">
-            <set>Qt::AlignBottom|Qt::AlignHCenter</set>
-           </property>
-          </widget>
           <widget class="QLabel" name="label_32">
            <property name="geometry">
             <rect>
@@ -493,30 +403,6 @@ QPushButton:disabled {
            </property>
            <property name="text">
             <string>38.69935828</string>
-           </property>
-          </widget>
-          <widget class="QLabel" name="label_23">
-           <property name="geometry">
-            <rect>
-             <x>0</x>
-             <y>50</y>
-             <width>41</width>
-             <height>30</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <pointsize>16</pointsize>
-            </font>
-           </property>
-           <property name="frameShape">
-            <enum>QFrame::NoFrame</enum>
-           </property>
-           <property name="text">
-            <string>#</string>
-           </property>
-           <property name="alignment">
-            <set>Qt::AlignCenter</set>
            </property>
           </widget>
           <widget class="QLabel" name="label_24">
@@ -568,30 +454,6 @@ QPushButton:disabled {
             <string>38.69935828</string>
            </property>
           </widget>
-          <widget class="QLabel" name="label_21">
-           <property name="geometry">
-            <rect>
-             <x>180</x>
-             <y>50</y>
-             <width>101</width>
-             <height>30</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <pointsize>16</pointsize>
-            </font>
-           </property>
-           <property name="frameShape">
-            <enum>QFrame::NoFrame</enum>
-           </property>
-           <property name="text">
-            <string>Y</string>
-           </property>
-           <property name="alignment">
-            <set>Qt::AlignCenter</set>
-           </property>
-          </widget>
           <widget class="QLabel" name="label_33">
            <property name="geometry">
             <rect>
@@ -636,19 +498,6 @@ QPushButton:disabled {
            </property>
            <property name="text">
             <string>38.69935828</string>
-           </property>
-          </widget>
-          <widget class="Line" name="line_6">
-           <property name="geometry">
-            <rect>
-             <x>7</x>
-             <y>30</y>
-             <width>391</width>
-             <height>20</height>
-            </rect>
-           </property>
-           <property name="orientation">
-            <enum>Qt::Horizontal</enum>
            </property>
           </widget>
           <widget class="QLabel" name="label_29">
@@ -720,56 +569,6 @@ QPushButton:disabled {
             <string>38.69935828</string>
            </property>
           </widget>
-          <widget class="Line" name="line_7">
-           <property name="geometry">
-            <rect>
-             <x>170</x>
-             <y>50</y>
-             <width>16</width>
-             <height>31</height>
-            </rect>
-           </property>
-           <property name="orientation">
-            <enum>Qt::Vertical</enum>
-           </property>
-          </widget>
-          <widget class="Line" name="line_17">
-           <property name="geometry">
-            <rect>
-             <x>280</x>
-             <y>50</y>
-             <width>16</width>
-             <height>31</height>
-            </rect>
-           </property>
-           <property name="orientation">
-            <enum>Qt::Vertical</enum>
-           </property>
-          </widget>
-          <widget class="QLabel" name="label_22">
-           <property name="geometry">
-            <rect>
-             <x>290</x>
-             <y>50</y>
-             <width>101</width>
-             <height>30</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <pointsize>16</pointsize>
-            </font>
-           </property>
-           <property name="frameShape">
-            <enum>QFrame::NoFrame</enum>
-           </property>
-           <property name="text">
-            <string>Z</string>
-           </property>
-           <property name="alignment">
-            <set>Qt::AlignCenter</set>
-           </property>
-          </widget>
           <widget class="QLabel" name="label_34">
            <property name="geometry">
             <rect>
@@ -791,6 +590,177 @@ QPushButton:disabled {
            </property>
           </widget>
          </widget>
+        </widget>
+        <widget class="Line" name="line_6">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>30</y>
+           <width>391</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_18">
+         <property name="geometry">
+          <rect>
+           <x>78</x>
+           <y>50</y>
+           <width>101</width>
+           <height>30</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="text">
+          <string>X</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_21">
+         <property name="geometry">
+          <rect>
+           <x>193</x>
+           <y>50</y>
+           <width>101</width>
+           <height>30</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="text">
+          <string>Y</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="Line" name="line_7">
+         <property name="geometry">
+          <rect>
+           <x>183</x>
+           <y>50</y>
+           <width>16</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+        <widget class="Line" name="line_17">
+         <property name="geometry">
+          <rect>
+           <x>293</x>
+           <y>50</y>
+           <width>16</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+        <widget class="QLabel" name="lbTitle_1">
+         <property name="geometry">
+          <rect>
+           <x>71</x>
+           <y>8</y>
+           <width>281</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Target Coordinates</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_22">
+         <property name="geometry">
+          <rect>
+           <x>303</x>
+           <y>50</y>
+           <width>101</width>
+           <height>30</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="text">
+          <string>Z</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_23">
+         <property name="geometry">
+          <rect>
+           <x>13</x>
+           <y>50</y>
+           <width>41</width>
+           <height>30</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="text">
+          <string>#</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="Line" name="line_8">
+         <property name="geometry">
+          <rect>
+           <x>53</x>
+           <y>50</y>
+           <width>16</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
         </widget>
        </widget>
       </widget>
