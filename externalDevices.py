@@ -1,3 +1,26 @@
+import threading
+import socket
+import time
+
+res = None
+res_lock = threading.Lock()
+
+def gnss_receiver():
+    global res
+
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    host = "192.168.1.203"
+    port = 9904
+    s.connect((host, port))
+    print("Connected to the host")
+
+    while True:
+        data = s.recv(1024)
+        # print(data)
+        with res_lock:
+            res = data.decode()      #res = data.decode("utf-8")
+        time.sleep(0.1)
+
 def parse_gpchc_message(message):
     """
     Parses a $GPCHC message into a dictionary.
@@ -96,12 +119,6 @@ def interpret_status(status_dict):
         "System State Description": system_description,
         "Satellite State Description": satellite_description
     }
-
-# Example usage
-status_example = {
-    "System State": 2,  # Integrated navigation mode
-    "Satellite State": 4  # RTK fixed positioning and orientation
-}
 
 # Interpret the status
 interpreted_status = interpret_status(parsed_message['Status'])
